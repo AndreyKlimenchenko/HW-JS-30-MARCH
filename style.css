@@ -1,0 +1,51 @@
+.title {
+    color: #4A4FF2;
+}
+
+input {
+    border: 1px solid rgb(185, 190, 190);
+    background: transparent;
+    margin: 10px 0px;
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contacts {
+    width: 300px;
+    height: auto;
+    padding: 15px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: 1px solid rgb(185, 190, 190);
+    margin: 10px 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.save-btn {
+    padding: 0px;
+    margin-left: 29px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+    color: #111111;
+}
+
+.btn:hover {
+    color: #4A4FF2;
+    transform: scale(1.15);
+}
